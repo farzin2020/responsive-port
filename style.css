@@ -1,0 +1,111 @@
+.p1 {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/*main-contact*/
+
+.p1{
+    margin-top: 20px;
+}
+
+h1, h2, h3{
+    margin-left: 20px;
+}
+p11, p22, p33{
+    margin-left: 40px;
+}
+
+
+#name{
+    position: static;
+    
+}
+
+
+/*contact*/
+
+#contact-form ul{
+    margin-bottom: 20px;
+}
+#contact-form il{
+    margin-bottom: 10px;
+}
+
+lable, input[type=text], input[type=email], textarea{
+    display: block;
+    width: 100%;
+}
+
+
+/*input*/
+
+
+input[type=text], input[type=email]{
+    height: 40px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+input[type=submit]{
+    background: #404040;
+    border: 0 none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+textarea{
+    height: 120px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+
+/*button*/
+
+
+button[type=button]{
+    margin-left: 20px;
+    background: #404040;
+    border: 0 none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button1[type=button]{
+    margin-left: 20px;
+    background: #404040;
+    border: 0 none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button2[type=button]{
+    margin-left: 20px;
+    background: #404040;
+    border: 0 none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 20px;
+}
+/*screen*/
+
+@media screen and (max-width: 980px),
+  screen and (max-width: 768px),
+  screen and (max-width: 240px) {
+    *{
+    background-color: rgb(255, 0, 43);
+     }
+  
+}
